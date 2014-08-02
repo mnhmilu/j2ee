@@ -4,3 +4,6 @@
 /CoreJ2EE-ejb/build/
 /CoreJ2EE-ejb/dist/
 /CoreJ2EE-war/build/
+/dist/
+/build/
+/CoreJ2EE-war/dist/
