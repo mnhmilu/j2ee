@@ -1,3 +1,6 @@
 /nbproject/private/
 /CoreJ2EE-war/nbproject/private/
 /CoreJ2EE-ejb/nbproject/private/
+/CoreJ2EE-ejb/build/
+/CoreJ2EE-ejb/dist/
+/CoreJ2EE-war/build/
