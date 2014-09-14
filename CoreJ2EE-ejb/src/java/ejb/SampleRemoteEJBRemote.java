@@ -3,9 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package ejb;
 
+import enitty.Actor;
+import enitty.Language;
 import javax.ejb.Remote;
 
 /**
@@ -14,7 +15,11 @@ import javax.ejb.Remote;
  */
 @Remote
 public interface SampleRemoteEJBRemote {
-    
+
     public String sayHiToRemoteEJB();
+
+    public void saveActor(Actor actor);
+    
+    public void saveLanguage(Language language);
     
 }

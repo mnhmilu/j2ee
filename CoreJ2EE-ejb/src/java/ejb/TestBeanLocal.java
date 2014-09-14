@@ -6,6 +6,7 @@
 
 package ejb;
 
+import enitty.Actor;
 import javax.ejb.Local;
 
 /**
@@ -15,6 +16,7 @@ import javax.ejb.Local;
 @Local
 public interface TestBeanLocal {
     
-    public String getMessage();            
+    public String getMessage();    
+    public void saveActor(Actor actor);
     
 }
