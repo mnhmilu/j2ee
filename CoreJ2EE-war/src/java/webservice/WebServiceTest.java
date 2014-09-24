@@ -14,7 +14,6 @@ import javax.jws.WebParam;
  */
 @WebService(serviceName = "WebServiceTest")
 public class WebServiceTest {
-
     /**
      * This is a sample web service operation
      */
